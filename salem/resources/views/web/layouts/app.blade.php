@@ -1,0 +1,6 @@
+@include('web.includes.head')
+@include('web.includes.header')
+@include('web.includes.sidebar')
+@include('web.includes.messages')
+@yield('content')
+@include('web.includes.footer')
